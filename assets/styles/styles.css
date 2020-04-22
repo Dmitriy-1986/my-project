@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;  
+}
+
+body {
+    padding: 40px 20px 40px 20px;
+    background-color: #f5f7fa;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 6px 8px 14px 3px rgba(217,213,213,0.52);
+    -webkit-box-shadow: 6px 8px 14px 3px rgba(217,213,213,0.52);
+    -moz-box-shadow: 6px 8px 14px 3px rgba(217,213,213,0.52);
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-top: 40px;
+    width: 400px;
+    height: 1500px;
+    background-color:#1e2939;
+}
+
+img {
+    width: 400px;
+}
+
+.contact {
+    color: #d8dadd;
+}
+
+.sidebar {
+    color:#d8dadd;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 89px;
+}
+
+h2 {
+    margin: 55px 0 10px 0; 
+}
+
+h3 {
+    margin: 20px 0 0 0;
+    font-weight: 600; 
+}
+
+h4 {
+    margin: 10px 0 0 0; 
+}
+li {
+    list-style-type: none;
+}
+
+.plus {
+    list-style-type: none;
+}
+
+.plus:before{
+    content: "+";
+    color: #ff6b08;
+    padding-right: 10px;
+}
+
+.plus-grey {
+    list-style-type: none;
+}
+
+.plus-grey:before{
+    content: "+";
+    color: #000;
+    padding-right: 10px;
+}
+
+article {
+    height: 1380px;
+    width:100%;
+    background-color:white;
+    padding: 80px 50px;
+}
+
+.info-container {
+    margin-bottom: 65px;
+}
+
+.profession {
+    padding-bottom: 23px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about-me {
+    padding-top: 24px;
+    width: 415px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.prof-duties {
+    line-height: 24px;
+    padding: 14px 0 30px 0;
+}
+
+.company-str {
+   color:#ff6b08;
+}
+
+.term-work-str {
+    color:rgb(100,100,100);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.education-box {
+    line-height: 24px;
+    padding: 10px 0 0 0;
+}
+
+.project-container {
+    margin-bottom: 55px;
+}
+
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.tech-project {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dots {
+    color: #595959;
+    font-weight: 100;
+}
+
+.project-item {
+    font-weight: 700;
+    margin-left: 17px;
+}
+
+.profession-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.prof-divider {
+    color: #000;
+    font-weight: 400;
+}
+
+  .material-icons.md-18 {
+      font-size: 18px;
+      padding-right: 10px;
+}
