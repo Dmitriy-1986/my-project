@@ -45,6 +45,10 @@ img {
     width: 400px;
 }
 
+.contact-item {
+    list-style-type: none;
+}
+
 .contact {
     color: #d8dadd;
 }
@@ -74,9 +78,6 @@ h3 {
 
 h4 {
     margin: 10px 0 0 0; 
-}
-li {
-    list-style-type: none;
 }
 
 .plus {
