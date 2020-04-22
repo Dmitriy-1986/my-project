@@ -189,6 +189,11 @@ article {
     font-weight: 400;
 }
 
+.css-validator {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
   .material-icons.md-18 {
       font-size: 18px;
       padding-right: 10px;
